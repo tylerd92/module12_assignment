@@ -8,6 +8,13 @@ from .user import (
 )
 
 from .token import Token, TokenData, TokenResponse
+from .calculation import (
+    CalculationType,
+    CalculationBase,
+    CalculationCreate,
+    CalculationUpdate,
+    CalculationResponse
+)
 
 __all__ = [
     'UserBase',
@@ -19,4 +26,9 @@ __all__ = [
     'Token',
     'TokenData',
     'TokenResponse',
+    'CalculationType',
+    'CalculationBase',
+    'CalculationCreate',
+    'CalculationUpdate',
+    'CalculationResponse',
 ]
