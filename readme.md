@@ -31,3 +31,6 @@ Get Calculation by ID Example
 
 Delete Calculation Example
 ![image](images/delete_calculation.png)
+
+GitHub Action
+![image](images/github_action.png)
